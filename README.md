@@ -27,3 +27,24 @@ Use this utility to automatically generate a to-do list by searching for pattern
 
 
 
+## Example
+Given the file `example.py`:
+```py
+01  def do_something():
+02      # TODO make this do some stuff
+03  ...
+```
+  
+With `TODO` included in the search terms, the output file will look something like this:
+```markdown
+# Todo List
+
+
+
+### TODO
+- [example.py](example.py#L2) make this do some stuff
+...
+```
+
+
+
