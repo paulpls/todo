@@ -19,10 +19,10 @@ Use this utility to automatically generate a to-do list by searching for pattern
 ## Instructions
 - Copy `todo.py` to your project's top-level directory (or elsewhere if you're feeling brave)
 - Edit the file to customize the output:
-  * `paths`: List of file paths to search (allows `*` globs) 
-  * `patterns`: List of search keyords
-  * `header`: Output file header
-  * `outpath`: Output file path
+  * [paths](todo.py#L40): List of file paths to search (allows `*` globs) 
+  * [patterns](todo.py#L44): List of search keyords
+  * [header](todo.py#L48): Output file header
+  * [outpath](todo.py#L49): Output file path
 
 
 
