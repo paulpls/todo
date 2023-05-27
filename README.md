@@ -23,6 +23,7 @@ Use this utility to automatically generate a to-do list by searching for pattern
   * [patterns](todo.py#L44): List of search keyords
   * [header](todo.py#L48): Output file header
   * [outpath](todo.py#L49): Output file path
+- Run the program: `python todo.py`
 
 
 
