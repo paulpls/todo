@@ -5,7 +5,7 @@ License: [FSF](LICENSE.md)
 
 
 ## About
-Use this tiny python script to automatically generate a to-do list by searching for patterns in the provided file paths. In return, you'll get a nicely formatted markdown file with direct links to your code, enabling you to pick up right where you left off.
+Use this utility to automatically generate a to-do list by searching for patterns in the provided file paths. In return, you'll get a nicely formatted markdown file with direct links to your code, enabling you to pick up right where you left off.
 
 
 
