@@ -39,10 +39,9 @@ With `TODO` included in the search terms, the output file will look something li
 ```markdown
 # Todo List
 
-
-
 ### TODO
 - [example.py](example.py#L2) make this do some stuff
+
 ...
 ```
 
