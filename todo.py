@@ -38,8 +38,8 @@
 #   NOTE Edit these variables to customize the program's output --------------------
 #
 files = [
-    "*.lua",
-    "lib/*.lua",
+    "src",
+    "test",
 ]
 patterns = [
     "TODO", 
