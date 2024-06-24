@@ -91,10 +91,10 @@ if __name__ == "__main__":
                 if not m:
                     continue
                 # Split the string into filename, line number, and contents
-                s = m.split(":")
+                s = m.split(":", 2)
                 f = s[0]
                 l = s[1]
-                c = s[-1].split(pattern)[-1]
+                c = s[2].split(pattern)[-1]
                 # Add to output using the provided format
                 out.append(outfmt.format(f, l, f, l, c))
                 success = True
