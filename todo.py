@@ -44,6 +44,7 @@ files = [
 patterns = [
     "TODO", 
     "FIXME",
+    "XXX",
 ]
 header = "# Todo List\n"
 outpath = "./TODO.md"
