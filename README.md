@@ -10,16 +10,16 @@ Use this utility to automatically generate a to-do list by searching for pattern
 
 
 ## Dependencies
-- python 3.6+
-- grep (from GNU Coreutils)
-- rm (from GNU Coreutils)
+- python >= 3.6
+- GNU `grep`
+- GNU `rm`
 
 
 
 ## Instructions
 - Copy `todo.py` to your project's top-level directory (or elsewhere if you're feeling brave)
 - Edit the file to customize the output:
-  * [paths](todo.py#L40): List of file paths to search (allows `*` globs) 
+  * [files](todo.py#L40): List of file or directory paths to search (allows `*` globs) 
   * [patterns](todo.py#L44): List of search keyords
   * [header](todo.py#L48): Output file header
   * [outpath](todo.py#L49): Output file path
@@ -44,6 +44,10 @@ With `TODO` included in the search terms, the output file will look something li
 
 ...
 ```
+
+
+## Wontfix
+- Currently only outputs a single line matching each pattern. Additional functionality to include entire multiline commments is not planned at this time.
 
 
 
